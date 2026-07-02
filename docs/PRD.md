@@ -1,8 +1,8 @@
-# PRD — API2MCP
+# PRD — mpchubapi
 
 | Campo | Valor |
 |---|---|
-| **Produto** | API2MCP |
+| **Produto** | mpchubapi |
 | **Versão do documento** | 1.0 |
 | **Status** | Planejamento Inicial |
 | **Data** | 2026-07-02 |
@@ -10,7 +10,7 @@
 
 ## 1. Sumário Executivo
 
-O **API2MCP** é uma plataforma SaaS que transforma qualquer API REST em um **Servidor MCP (Model Context Protocol)** sem necessidade de programação. O usuário conecta sua API, escolhe quais endpoints deseja expor, e a plataforma gera automaticamente um servidor MCP pronto para ser utilizado por ferramentas como Claude, Cursor, VS Code, OpenAI, Windsurf e qualquer cliente compatível com MCP.
+O **mpchubapi** é uma plataforma SaaS que transforma qualquer API REST em um **Servidor MCP (Model Context Protocol)** sem necessidade de programação. O usuário conecta sua API, escolhe quais endpoints deseja expor, e a plataforma gera automaticamente um servidor MCP pronto para ser utilizado por ferramentas como Claude, Cursor, VS Code, OpenAI, Windsurf e qualquer cliente compatível com MCP.
 
 O objetivo de longo prazo é se tornar a **principal plataforma de publicação e gerenciamento de servidores MCP** do mercado.
 
@@ -232,7 +232,7 @@ Botão Deploy
   ↓
 Servidor publicado
   ↓
-Endpoint: https://app.api2mcp.com/mcp/{server_id}
+Endpoint: https://app.mpchubapi.com/mcp/{server_id}
 ```
 
 ### Módulo 11 — Testador
@@ -275,7 +275,7 @@ Registra: Usuário, Projeto, Tool, Tempo, Status, Request, Response, Tokens, Cus
                        │
         PostgreSQL + Storage + Auth
                        │
-               Runtime API2MCP
+               Runtime mpchubapi
                        │
             MCP Gateway Multi-Tenant
                        │
@@ -455,4 +455,4 @@ GitHub, GitLab, Linear, Jira, Notion, Slack, Discord, Supabase, Firebase, Postgr
 
 ## 21. Visão de Longo Prazo
 
-Transformar o API2MCP na principal plataforma de integração entre sistemas e agentes de IA, oferecendo um ecossistema completo para criação, gerenciamento, publicação, monitoramento e comercialização de servidores MCP. A plataforma deverá evoluir de um simples conversor de APIs para uma **camada universal de integração**, permitindo que empresas exponham qualquer serviço como ferramentas compatíveis com IA de forma segura, escalável e governada.
+Transformar o mpchubapi na principal plataforma de integração entre sistemas e agentes de IA, oferecendo um ecossistema completo para criação, gerenciamento, publicação, monitoramento e comercialização de servidores MCP. A plataforma deverá evoluir de um simples conversor de APIs para uma **camada universal de integração**, permitindo que empresas exponham qualquer serviço como ferramentas compatíveis com IA de forma segura, escalável e governada.
